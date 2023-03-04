@@ -1,6 +1,3 @@
-import math
-import os
-
 print("--Welcome to Quadratic Equation Solver--")
 print("[1] Start")
 print("[2] Stop")
@@ -28,7 +25,7 @@ while user_choice == 1 and user_choice != 2:
             print('X1:', form)
             print('X2:', form2)
         break
-    except ZeroDivisionError:
+    except:
         os.system('cls')
         print("Enter a valid A! ")
         
